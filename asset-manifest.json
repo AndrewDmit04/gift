@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.27b0d8dc.css",
+    "main.js": "./static/js/main.52535a5a.js",
+    "static/media/andrew.png": "./static/media/andrew.60be68d5362d4f2d88f6.png",
+    "static/media/jade.png": "./static/media/jade.e261ddb98a5a9b68404c.png",
+    "static/media/cutest.jpeg": "./static/media/cutest.56b56cfc3c7f799a1c86.jpeg",
+    "static/media/koda.jpg": "./static/media/koda.a1c50446daecafdfcb53.jpg",
+    "static/media/rockClimbing.jpg": "./static/media/rockClimbing.7a3a83730e3a740d999e.jpg",
+    "static/media/couple.JPG": "./static/media/couple.23bbb4abce3f7aad5897.JPG",
+    "static/media/sundubu.jpg": "./static/media/sundubu.ab5cf9f626c2bb6d17cb.jpg",
+    "index.html": "./index.html",
+    "main.27b0d8dc.css.map": "./static/css/main.27b0d8dc.css.map",
+    "main.52535a5a.js.map": "./static/js/main.52535a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b0d8dc.css",
+    "static/js/main.52535a5a.js"
+  ]
+}
