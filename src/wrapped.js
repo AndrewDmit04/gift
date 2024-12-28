@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
-
+import andrew from './images/andrew.png'
+import sundubu from './images/sundubu.jpg'
+import rockClimbing from './images/rockClimbing.jpg'
+import cutest from './images/cutest.jpeg'
+import koda from './images/koda.jpg'
+import couple from './images/couple.JPG'
 const MobileWrapped = ({startOpacity}) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const x = useMotionValue(0);
@@ -18,7 +23,7 @@ const MobileWrapped = ({startOpacity}) => {
       title: "Your Top Lover boy",
       value: "Andrew Dmitrievsky",
       detail: "Over 28,576 hours of being together",
-      image: "/andrew.png",
+      image: andrew,
       bgColor: "bg-gradient-to-br from-green-400 to-blue-500"
     },
     {
@@ -26,7 +31,7 @@ const MobileWrapped = ({startOpacity}) => {
         title: "Top Meal Of The Year",
         value: "순두부",
         detail: "Over 10,000 meals ",
-        image: "/sundubu.jpg",
+        image: sundubu,
         bgColor: "bg-gradient-to-br from-red-400 to-yellow-500"
       },
     {
@@ -34,7 +39,7 @@ const MobileWrapped = ({startOpacity}) => {
         title: "Reunited With Old Hobbies",
         value: "Rock Climbing",
         detail: "Certified Monkey ",
-        image: "/rockClimbing.jpg",
+        image: rockClimbing ,
         bgColor: "bg-gradient-to-br from-green-400 to-yellow-500"
       },
       {
@@ -42,7 +47,7 @@ const MobileWrapped = ({startOpacity}) => {
         title: "Cutest Photo of The Year",
         value: "My Precios ❤️",
         detail: "So pretty 😍",
-        image: "/cutest.jpeg",
+        image: cutest,
         bgColor: "bg-gradient-to-br from-green-400 to-purple-500"
       },
     {
@@ -50,7 +55,7 @@ const MobileWrapped = ({startOpacity}) => {
       title: "You Got Some New Pets This Year",
       value: "Koda",
       detail: "likes feet, basically a dog",
-      image: "koda.jpg",
+      image: koda,
       bgColor: "bg-gradient-to-br from-yellow-400 to-red-500"
     },
     {
@@ -58,7 +63,7 @@ const MobileWrapped = ({startOpacity}) => {
         title: "Couple Photo Of The Year",
         value: "Blessed ❤️😍",
         detail: "",
-        image: "/couple.JPG",
+        image: couple,
         bgColor: "bg-gradient-to-br from-green-400 to-purple-500"
       },
     {

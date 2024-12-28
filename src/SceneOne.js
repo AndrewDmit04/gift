@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Snowfall } from "react-snowfall";
 import { gsap } from "gsap";
-
+import jade from './images/jade.png'
 const MESSAGES = [
   "Hello",
   "Its really cold",
@@ -156,7 +156,7 @@ const AnimatedScene = ({setFinished}) => {
       />
 
       <img
-        src="/jade.png"
+        src={jade }
         className="fixed bottom-0 w-20 opacity-0 z-10"
         ref={jadeRef}
         alt="Jade"
